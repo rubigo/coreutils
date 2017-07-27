@@ -16,8 +16,8 @@ Coreutils implemented in Rust, with a focus on usability, speed and security.
 -   Have sane defaults, avoid over-customisability. 
 -   Ease of use is most important.
 
-## Features
+## Security
 
--   Cross-platform support (Linux, BSD, Windows).
--   Use local security features (`libseccomp`, BSD `pledge`) if available.
+-   Use all available security features on each platform (eg. `pledge` on BSD,
+    `libseccomp` on Linux).
 -   Small codebase, easy to audit.
