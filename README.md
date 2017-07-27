@@ -1,6 +1,7 @@
 ![rubigo-coreutils](img/coreutils.png)
 
-Coreutils implemented in Rust. 
+Coreutils implemented in Rust, with a focus on usability, speed and security. 
+
 
 ## Goals
 
@@ -14,3 +15,9 @@ Coreutils implemented in Rust.
 -   Try to be as compatible as possible with existing implementations.
 -   Have sane defaults, avoid over-customisability. 
 -   Ease of use is most important.
+
+## Features
+
+-   Cross-platform support (Linux, BSD, Windows).
+-   Use local security features (`libseccomp`, BSD `pledge`) if available.
+-   Small codebase, easy to audit.
