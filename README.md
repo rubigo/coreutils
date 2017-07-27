@@ -1,6 +1,6 @@
-# Coreutils written in Rust
-
 ![rubigo-coreutils](img/coreutils.png)
+
+Coreutils implemented in Rust. 
 
 ## Goals
 
