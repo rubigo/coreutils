@@ -1,2 +1,4 @@
-title: ![coreutils](logo.png)
-description: Coreutils, implemented in rust, with a focus on security.
+title: rubigo coreutils
+logo: logo.png
+description: Coreutils implemented in Rust, with a focus on usability, speed and security.
+theme: jekyll-theme-minimal

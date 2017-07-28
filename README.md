@@ -1,8 +1,8 @@
-![rubigo-coreutils](coreutils.png)
-
-Coreutils implemented in Rust, with a focus on usability, speed and security. 
+# Rubigo Coreutils
 
 ## Utilities
+
+This is the list of utilities that are currently implemented.
 
 name | version | status | coverage | docs
 ---: | :-----: | :----: | :------: | :---
