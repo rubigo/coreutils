@@ -3,12 +3,13 @@ echo PULLING MASTER FROM ORIGIN
 git pull origin master
 
 echo DELETING OLD TARGETS
-rm -rf target
+rm -rf target gh-pages
 
 echo CREATING GH-PAGES DIR
 mkdir gh-pages
 
 echo CREATING WORKTREE
+git worktree prune
 git worktree add gh-pages static
 
 echo DELETING OLD GH-PAGES BRANCH
@@ -16,6 +17,9 @@ git branch -D gh-pages
 
 echo CREATING NEW GH-PAGES BRANCH
 cd gh-pages && git checkout -b gh-pages && cd ..
+
+echo PRUNING GIT
+git prune
 
 echo GENERATING DOCUMENTATION
 cargo doc
