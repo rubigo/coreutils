@@ -1,3 +1,3 @@
-[submodule "ls"]
+[submodule "yes"]
 	path = utils/yes
 	url = git@github.com:rubigo/yes.git
