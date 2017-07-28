@@ -1,0 +1,39 @@
+#!/bin/bash
+echo PULLING MASTER FROM ORIGIN
+git pull origin master
+
+echo DELETING OLD TARGETS
+rm -rf target
+
+echo CREATING GH-PAGES DIR
+mkdir gh-pages
+
+echo CREATING WORKTREE
+git worktree add gh-pages static
+
+echo DELETING OLD GH-PAGES BRANCH
+git branch -D gh-pages
+
+echo CREATING NEW GH-PAGES BRANCH
+cd gh-pages && git checkout -b gh-pages && cd ..
+
+echo GENERATING DOCUMENTATION
+cargo doc
+
+echo COPYING DOCUMENTATION INTO BRANCH
+cp -r target/doc gh-pages
+
+echo COMITTING UPDATED DOCUMENTATION
+cd gh-pages
+git add .
+git commit -m "updates gh-pages"
+cd ..
+
+echo PUSHING BRANCH TO ORIGIN
+git push -f origin gh-pages
+
+echo PRUNING WORKTREES
+git worktree prune
+
+echo DELETING GH-PAGES FOLDER
+rm -r gh-pages
