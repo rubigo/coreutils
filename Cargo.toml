@@ -4,3 +4,5 @@ version = "0.1.0"
 authors = ["Patrick Elsen <pelsen@xfbs.net>"]
 
 [dependencies]
+"rubigo-yes" =  { git = "https://github.com/rubigo/yes" }
+"rubigo-true" = { git = "https://github.com/rubigo/true" }
