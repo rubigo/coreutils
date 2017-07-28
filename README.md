@@ -1,4 +1,4 @@
-![rubigo-coreutils](img/coreutils.png)
+![rubigo-coreutils](logo.png)
 
 Coreutils implemented in Rust, with a focus on usability, speed and security. 
 
