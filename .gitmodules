@@ -1,6 +1,0 @@
-[submodule "yes"]
-	path = utils/yes
-	url = git@github.com:rubigo/yes.git
-[submodule "utils/true"]
-	path = utils/true
-	url = git@github.com:rubigo/true.git
