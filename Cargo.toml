@@ -3,6 +3,17 @@ name = "rubigo-coreutils"
 version = "0.1.0"
 authors = ["Patrick Elsen <pelsen@xfbs.net>"]
 
+description = "coreutils implemented in rust with a focus on security"
+documentation = "https://rubigo.github.io/coreutils/doc/rubigo_coreutils"
+homepage = "https://rubigo.github.io/coreutils"
+repository = "https://github.com/rubigo/coreutils"
+
+readme = "README.md"
+keywords = ["coreutils", "security", "unix", "posix", "linux"]
+categories = ["command-line-utilities", "development-tools"]
+
+license = "MIT"
+
 [dependencies]
 "rubigo-yes" =  { git = "https://github.com/rubigo/yes" }
 "rubigo-true" = { git = "https://github.com/rubigo/true" }
