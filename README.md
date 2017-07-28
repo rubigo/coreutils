@@ -7,6 +7,7 @@ Coreutils implemented in Rust, with a focus on usability, speed and security.
 name | version | status | coverage | docs
 ---: | :-----: | :----: | :------: | :---
 [`yes`](https://github.com/rubigo/yes) | [![current tag](https://img.shields.io/github/tag/rubigo/yes.svg)](CHANGELOG.md) | [![travis build status](https://travis-ci.org/rubigo/yes.svg?branch=master)](https://travis-ci.org/rubigo/yes) | [![codecov](https://codecov.io/gh/rubigo/yes/branch/master/graph/badge.svg)](https://codecov.io/gh/rubigo/yes) | [![docs: published](https://img.shields.io/badge/docs-published-green.svg)](https://rubigo.github.io/yes/rubigo_yes) 
+[`true`](https://github.com/rubigo/true), [`false`](https://github.com/rubigo/true) | [![current tag](https://img.shields.io/github/tag/rubigo/true.svg)](CHANGELOG.md) | [![travis build status](https://travis-ci.org/rubigo/true.svg?branch=master)](https://travis-ci.org/rubigo/true) | [![codecov](https://codecov.io/gh/rubigo/true/branch/master/graph/badge.svg)](https://codecov.io/gh/rubigo/true) | [![docs: published](https://img.shields.io/badge/docs-published-green.svg)](https://rubigo.github.io/true/rubigo_true) 
 
 ## Goals
 
