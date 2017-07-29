@@ -17,3 +17,4 @@ license = "MIT"
 [dependencies]
 "rubigo-yes" =  { git = "https://github.com/rubigo/yes" }
 "rubigo-true" = { git = "https://github.com/rubigo/true" }
+"rubigo-pwd" =  { git = "https://github.com/rubigo/pwd" }
